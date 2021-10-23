@@ -67,6 +67,6 @@ public class Caesar {
         Caesar caesar = new Caesar();
         caesar.decode();
 //        caesar.encode(caesar.text, caesar.k, caesar.a);
-
+// kfdkf
     }
 }
