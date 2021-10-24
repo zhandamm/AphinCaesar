@@ -42,7 +42,7 @@ public class Caesar {
         return 1;
     }
 
-    void decode() {
+    void decode(int k, int n, int a) {
         int kInverse = calcInverse(k, n);
         String text = "гыpoцbzтчzb";
         StringBuilder decrypted = new StringBuilder();
@@ -65,8 +65,9 @@ public class Caesar {
 
     public static void main(String[] args) {
         Caesar caesar = new Caesar();
-        caesar.decode();
+        caesar.decode(caesar.k, caesar.n, caesar.a);
+        caesar.encode(caesar.text, 5,14);
 //        caesar.encode(caesar.text, caesar.k, caesar.a);
-// kfdkf
+
     }
 }
